@@ -1,0 +1,227 @@
+/* 
+	  ======Author Info======
+	Author: HASIBUL HASAN SHANTO
+	*/ 
+
+/*
+	=======Index=========
+	1. Global CSS
+	2. Header Scection
+	3. Hero Section
+	4. About Us Section
+	5. Practice area Section
+	6. Lawyers Section
+	7. Testimonial
+	8. Publications Section
+	9. FAQ Section
+	10. Contact Us Section
+	11. Footer Section CSS
+	12. Go Top Css
+	=======================
+	*/
+
+/*====Global Css====*/
+body{
+	background-color: #0a2345;
+}
+section{
+	padding: 50px 0;
+}
+.btn{
+	color: white;
+	background-color: transparent;
+	border:1px solid #2a5da3;
+	border-radius: 25px;
+	transition: 0.4s;
+}
+.btn:hover{
+	color: white;
+	background-color:#ff3334;
+}
+.fa{
+	color: #ff3334;
+	font-size: 35px;
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+
+
+/*====header section===*/
+header nav li{
+
+	margin-left: 15px;
+	transition: 0.4s;
+	border-radius: 15px;
+	padding: 5px;
+}
+header nav li a{
+	color: white !important;
+}
+header nav li :hover{
+	background-color:#ff3334;
+	border-radius: 15px;
+	color: white !important;
+}
+.btn-explore{
+	margin-top: 5%;
+	display: block;
+	margin-left: 43%;
+}
+
+/*====Explore section====*/
+
+
+.explore h2{
+	color: white;
+	text-align: center;
+
+}
+.explore p{
+	color: #2a5da3;
+	text-align: center;
+
+}
+.explore span{
+	color: #2a5da3;
+	
+
+}
+/*====Banner section===*/
+.banner{
+	background: url(../img/banner-bg.png) no-repeat;
+	background-size: cover;
+}
+.banner-content{
+	margin-left: 5%;
+}
+.banner img{
+	width: 100%;
+	padding-left: 15px;
+
+}
+.middle-img{
+	margin-top: 23px;
+}
+
+/*====Headphone section====*/
+
+.headphone-img{
+	width: 100%;
+}
+.headphone-pera{
+	margin-top: 8%;
+}
+.headphone-pera h2{
+	color: white;
+	text-align: center;
+	padding-bottom: 15px;
+}
+.headphone-pera span{
+	color: #2a5da3;
+}
+.headphone-pera p{
+	color: #66778e;
+	text-align: justify;
+}
+.btn-headphone{
+	margin-top: 5%;
+}
+
+/*====Features section====*/
+.features-pera h4{
+	color: white;
+	margin-bottom: 20px;
+}
+.features-pera p{
+	color: #66778e;
+}
+
+.feature-img{
+	width:100%;
+	margin-top: 5%;
+}
+
+/*====Power Section====*/
+
+
+.power h4{
+	color: white;
+	margin-bottom: 25px;
+}
+.power p{
+	color: #66778e;
+}
+.power-pera{
+	margin-top: 7%;
+}
+
+.designer{
+	background: url(../img/options.png) no-repeat;
+	background-size: cover;
+}
+.about-designer h5{
+	margin-top: 15%;
+	color: #66778e;
+	line-height: 35px;
+}
+.about-designer img{
+	margin-top: 8%;
+	margin-left: 20%;
+	position: relative;
+}
+.about-designer p{
+	color: #66778e;
+	position: relative;
+	top: -30px;
+	left: 28%;
+}
+.about-designer span{
+	color: #2a5da3;
+}
+
+/*====Discover section====*/
+.discover{
+	background-color: #02060d;
+}
+
+.discover h4{
+	margin-top: 5%;
+	text-align: center;
+	color: white;
+	margin-bottom: 5%;
+}
+.discover p{
+	text-align: center;
+	color:  #66778e;
+}
+.discover-img{
+	margin-left: 20%;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+.btn-discover{
+	margin-left: 43%;
+	position: absolute;
+	
+}
+
+/*====footer section====*/
+footer{
+	padding-top: 5%;
+	background-color: #02060d;
+}
+footer .container{
+	border-top: 1px solid gray;
+}
+
+footer ul {
+	font-size: 12px;
+	list-style: none;
+	display: inline-block;
+	padding-left: 3px;
+}
+.footer-pera p{
+	font-size: 12px;
+	text-align: right;
+	color: #2e5d9b;
+}
